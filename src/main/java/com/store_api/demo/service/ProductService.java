@@ -69,7 +69,7 @@ public class ProductService {
         products.put(302L, new Product(302L,"Green Sneakers", 599, true, s2url,shoes));
         products.put(303L, new Product(303L,"Black Dress Shoe", 999, false, s3url,shoes));
         products.put(304L, new Product(304L,"Brown Sandals", 299, true, s4url,shoes));
-        products.put(305L, new Product(305L,"Blue Loafers", 499, false, s5url,shoes));
+        products.put(305L, new Product(305L,"Blue Loafers", 499, true, s5url,shoes));
     }
     
     public List<Product> getAllProducts() {
