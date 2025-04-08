@@ -39,7 +39,7 @@ public class ProductService {
         String t8url = "https://image.hm.com/assets/hm/0a/11/0a11415d425a0f392d6fec669790b7181e53d24f.jpg?imwidth=1536";
 
         // images url for pants:
-        String p1url = "https://image.hm.com/assets/006/66/42/66423a279eae387f4f1304f790f21d2696641960.jpg?imwidth=1536";
+        String p1url = "https://image.hm.com/assets/006/5f/45/5f45b7d3f72f74332761eabeecef7c6968613486.jpg?imwidth=1536";
         String p2url = "https://image.hm.com/assets/006/c8/26/c82642fd79a9f258d0bef1125b4296e32f2ac1d9.jpg?imwidth=1536";
         String p3url= "https://image.hm.com/assets/hm/a6/8e/a68ec98cb51671d4450194b72e6148018aba0775.jpg?imwidth=2160";
         String p4url = "https://image.hm.com/assets/006/e7/64/e764745ee689bed755a34e1036b93a0798d69b47.jpg?imwidth=1536";
@@ -66,7 +66,7 @@ public class ProductService {
         products.put(103L, new Product(103L,"White Shirt",199, true, t3url,tops));
         products.put(104L, new Product(104L,"Green Sweater", 399, false, t4url,tops ));
         products.put(105L, new Product(105L,"Checkered Shirt", 499, true, t5url, tops));
-        products.put(106L, new Product(106L, "Grey Hoodie", 399, false, t6url, tops));
+        products.put(106L, new Product(106L, "Gray Hoodie", 399, false, t6url, tops));
         products.put(107L,new Product(107L,"Black T-Shirt", 199, false, t7url, tops));
         products.put(108L, new Product(108L, "Black Hoodie",399, false, t8url, tops ));
 
@@ -78,7 +78,7 @@ public class ProductService {
         products.put(204L, new Product(204L,"Black Jeans", 699, false, p4url,pants ));
         products.put(205L, new Product(205L,"Training shorts", 249,  true, p5url, pants));
         products.put(206L,new Product(206L, "White Linen Pants", 599, false, p6url, pants));
-        products.put(207L, new Product(207L, "Grey Slacks",699, false, p7url, pants));
+        products.put(207L, new Product(207L, "Gray Slacks",699, false, p7url, pants));
         products.put(208L, new Product(208L, "Washed Jeans", 499, false, p8url, pants));
 
         products.put(301L, new Product(301L,"White Sneakers", 399, false, s1url,shoes));
