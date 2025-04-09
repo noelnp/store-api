@@ -1,5 +1,5 @@
 # ➤ 1. Använd officiell Java 21 image
-FROM eclipse-temurin:21-jdk-focal AS build
+FROM eclipse-temurin:21-jre-jammy AS build
 
 # ➤ 2. Sätt arbetsmapp
 WORKDIR /app
