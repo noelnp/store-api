@@ -66,7 +66,7 @@ public class ProductService {
         products.put(103L, new Product(103L,"White Shirt",199, true, t3url,tops));
         products.put(104L, new Product(104L,"Green Sweater", 399, false, t4url,tops ));
         products.put(105L, new Product(105L,"Checkered Shirt", 499, true, t5url, tops));
-        products.put(106L, new Product(106L, "Grey Hoodie", 399, false, t6url, tops));
+        products.put(106L, new Product(106L, "Gray Hoodie", 399, false, t6url, tops));
         products.put(107L,new Product(107L,"Black T-Shirt", 199, false, t7url, tops));
         products.put(108L, new Product(108L, "Black Hoodie",399, false, t8url, tops ));
 
@@ -78,7 +78,7 @@ public class ProductService {
         products.put(204L, new Product(204L,"Black Jeans", 699, false, p4url,pants ));
         products.put(205L, new Product(205L,"Training shorts", 249,  true, p5url, pants));
         products.put(206L,new Product(206L, "White Linen Pants", 599, false, p6url, pants));
-        products.put(207L, new Product(207L, "Grey Slacks",699, false, p7url, pants));
+        products.put(207L, new Product(207L, "Gray Slacks",699, false, p7url, pants));
         products.put(208L, new Product(208L, "Washed Jeans", 499, false, p8url, pants));
 
         products.put(301L, new Product(301L,"White Sneakers", 399, false, s1url,shoes));
