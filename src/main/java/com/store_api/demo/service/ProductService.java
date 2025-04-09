@@ -18,7 +18,7 @@ public class ProductService {
     public void initResources() {
 
 
-        String t1url = "https://image.hm.com/assets/006/c3/71/c371d4e343de6706a4474487c3a6aca657283800.jpg?imwidth=2160";
+        String t1url = "https://i.postimg.cc/yxQ9SzWX/warm-beige-sw-eat.png";
         // Categories
         Category tops = new Category(1L,"Shirts");
         Category pants = new Category(2L,"Pants");
@@ -30,33 +30,33 @@ public class ProductService {
 
         // Images url for tops:
 
-        String t2url = "https://image.hm.com/assets/hm/89/91/8991e3b225e222c17d9d0e1703d8e765af4885fa.jpg?imwidth=1536";
-        String t3url =   "https://image.hm.com/assets/hm/88/66/8866cf858916a009287778c867d5b178453d0d64.jpg?imwidth=1536";
-        String t4url = "https://image.hm.com/assets/006/ff/e0/ffe06bbe6a0a7e5af11522564c6703f5c083b3c7.jpg?imwidth=2160";
-        String t5url = "https://image.hm.com/assets/hm/81/69/8169a165a42b23a507f9a3285205f61f8874362a.jpg?imwidth=1536";
-        String t6url = "https://image.hm.com/assets/hm/9c/ba/9cba9022214faa499dfb38d0eecefad02119cd35.jpg?imwidth=1536";
-        String t7url = "https://image.hm.com/assets/hm/a1/3a/a13a2d63c7ac7d8356a6f7a8dde2f7f989024e7b.jpg?imwidth=1536";
-        String t8url = "https://image.hm.com/assets/hm/0a/11/0a11415d425a0f392d6fec669790b7181e53d24f.jpg?imwidth=1536";
+        String t2url = "https://i.postimg.cc/1RkbZtx0/lighthray.png";
+        String t3url =   "https://i.postimg.cc/nLY3j6kC/blackzip.png";
+        String t4url = "https://i.postimg.cc/NFV3JWZQ/sw-eater-gray.png";
+        String t5url = "https://i.postimg.cc/SNp9vDbG/blac-hood.png";
+        String t6url = "https://i.postimg.cc/CKNN7XQX/navy-sw-eat.png";
+        String t7url = "https://i.postimg.cc/sXMT2KTL/black-shirt.png";
+        String t8url = "https://i.postimg.cc/HLgmXcq3/white-shirt.png";
 
         // images url for pants:
-        String p1url = "https://image.hm.com/assets/006/66/42/66423a279eae387f4f1304f790f21d2696641960.jpg?imwidth=1536";
-        String p2url = "https://image.hm.com/assets/006/c8/26/c82642fd79a9f258d0bef1125b4296e32f2ac1d9.jpg?imwidth=1536";
-        String p3url= "https://image.hm.com/assets/hm/a6/8e/a68ec98cb51671d4450194b72e6148018aba0775.jpg?imwidth=2160";
-        String p4url = "https://image.hm.com/assets/006/e7/64/e764745ee689bed755a34e1036b93a0798d69b47.jpg?imwidth=1536";
-        String p5url = "https://image.hm.com/assets/hm/3b/c0/3bc0c8ff7e99160e8866b8679fb35eb5743dfcc5.jpg?imwidth=1536";
-        String p6url = "https://image.hm.com/assets/hm/17/97/1797411d400368050ed60d46c2e32ed26c0efd90.jpg?imwidth=1536";
-        String p7url = "https://image.hm.com/assets/hm/79/29/792968ed031040afc9d80bfcb08e4d60fc44e2bd.jpg?imwidth=1536";
-        String p8url = "https://image.hm.com/assets/hm/ae/17/ae17a17aa80fae1527577161e92ef0072a3888d6.jpg?imwidth=1536";
+        String p1url = "https://i.postimg.cc/Bnnbfs1g/lightblue-jeans.png";
+        String p2url = "https://i.postimg.cc/cHCPXFkx/image2.png";
+        String p3url= "https://i.postimg.cc/zDTVnxrn/beige-pants2.png";
+        String p4url = "https://i.postimg.cc/LXTS4Cwp/grea-jeans.png";
+        String p5url = "https://i.postimg.cc/85hR7WmD/beige-pants.png";
+        String p6url = "https://i.postimg.cc/L61GD4BW/black-jeans.png";
+        String p7url = "https://i.postimg.cc/fTgTtffN/greysw-eatpants.png";
+        String p8url = "https://i.postimg.cc/j5dSngmR/track-pants.png";
 
         // Images url for shoes:
-        String s1url = "https://image.hm.com/assets/hm/5c/b1/5cb1f60c8f4775452f7207a114dcfd4c768d0101.jpg?imwidth=1536";
-        String s2url = "https://image.hm.com/assets/hm/b7/1e/b71e2afc636977e6c3302c6f88d0dbbe5ad2e105.jpg?imwidth=1536";
-        String s3url = "https://image.hm.com/assets/hm/27/ae/27ae25276c9e618f8cabd9dc395d5e1584c000be.jpg?imwidth=1536";
-        String s4url = "https://image.hm.com/assets/hm/e8/61/e861ca2817692a6e1aae9c7f34006479e810208a.jpg?imwidth=1536";
-        String s5url = "https://image.hm.com/assets/hm/3c/b2/3cb2763c59c34881ff013a6d984c37d3e269f38a.jpg?imwidth=1536";
-        String s6url = "https://image.hm.com/assets/hm/ac/a4/aca424c94d6cb29579fd99d576838d00a2d3025d.jpg?imwidth=1536";
-        String s7url = "https://image.hm.com/assets/hm/d0/c6/d0c6ebaabb0d67dd5d8852222a5c91a1d22d6e95.jpg?imwidth=1536";
-        String s8url = "https://image.hm.com/assets/hm/64/e3/64e3db8cb3257f26bec07c2b2267db21abecf827.jpg?imwidth=1536";
+        String s1url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359461858074955807/white-sneakers.png?ex=67f79104&is=67f63f84&hm=bb3d1e220970b6ad5433a3bdc7ee32fa967a35b2d30ec358933f25c23fdceda7&";
+        String s2url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359461978858459206/raw.png?ex=67f79121&is=67f63fa1&hm=cc572cec526445ac8a6f021d877199555e875ab724bb6e6b07e3c5dd3f9a1592&";
+        String s3url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359462635032023121/ChatGPT_Image_9_apr._2025_11_38_56.png?ex=67f791bd&is=67f6403d&hm=c495b2c9aadd95aeef82bfd9e0ebb29f44a94e4895f1406dabe6b153ee4b0699&";
+        String s4url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359463333773967531/52371897-d3e7-4530-a693-3a6d90d74ffc.png?ex=67f79264&is=67f640e4&hm=9da1409bf65cb69110a0982c1ba22b859aaa5647a0537d2150c6a7779e707752&¢";
+        String s5url = "https://i.postimg.cc/PJYnF18C/blackloaferse.png";
+        String s6url = "https://i.postimg.cc/T1NLPMP8/9392c88d-076e-46b1-a2d2-d1dee31284d3.png";
+        String s7url = "https://i.postimg.cc/kgqPfjF8/blackleathershoe.png";
+        String s8url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359465025755943093/raw.png?ex=67f793f7&is=67f64277&hm=6a25bfd0cbb4fe73116343a3c6b257b5c8486c2f93a599d78659875ab9d2fe09&";
 
 
         
