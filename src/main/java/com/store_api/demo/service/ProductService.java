@@ -41,7 +41,7 @@ public class ProductService {
         // images url for pants:
         String p1url = "https://i.postimg.cc/Bnnbfs1g/lightblue-jeans.png";
         String p2url = "https://i.postimg.cc/cHCPXFkx/image2.png";
-        String p3url= "https://i.postimg.cc/zDTVnxEeeeeeeern/beige-pants2.png";
+        String p3url= "https://i.postimg.cc/x8sdmXyT/black-slacks.png";
         String p4url = "https://i.postimg.cc/LXTS4Cwp/grea-jeans.png";
         String p5url = "https://i.postimg.cc/85hR7WmD/beige-pants.png";
         String p6url = "https://i.postimg.cc/L61GD4BW/black-jeans.png";
