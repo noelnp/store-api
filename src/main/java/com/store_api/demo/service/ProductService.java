@@ -61,34 +61,34 @@ public class ProductService {
 
         
         // Tops
-        products.put(101L, new Product(101L, "Blue Sweater", 499, false, t1url, tops));
-        products.put(102L, new Product(102L, "Black Shirt", 199, false, t2url, tops));
-        products.put(103L, new Product(103L,"White Shirt",199, true, t3url,tops));
-        products.put(104L, new Product(104L,"Green Sweater", 399, false, t4url,tops ));
-        products.put(105L, new Product(105L,"Checkered Shirt", 499, true, t5url, tops));
-        products.put(106L, new Product(106L, "Gray Hoodie", 399, false, t6url, tops));
-        products.put(107L,new Product(107L,"Black T-Shirt", 199, false, t7url, tops));
-        products.put(108L, new Product(108L, "Black Hoodie",399, false, t8url, tops ));
+        products.put(101L, new Product(101L, "Beige Sweater", 499, false, t1url, tops));
+        products.put(102L, new Product(102L, "White Sweater", 199, false, t2url, tops));
+        products.put(103L, new Product(103L,"Black Sweater",199, true, t3url,tops));
+        products.put(104L, new Product(104L,"Gray Sweater", 399, false, t4url,tops ));
+        products.put(105L, new Product(105L,"Black Hoodie", 499, true, t5url, tops));
+        products.put(106L, new Product(106L, "Blue Sweater", 399, false, t6url, tops));
+        products.put(107L,new Product(107L,"Black Shirt", 199, false, t7url, tops));
+        products.put(108L, new Product(108L, "White Shirt",399, false, t8url, tops ));
 
         
         // Pants
         products.put(201L, new Product(201L, "Blue Jeans",699, false, p1url,pants));
-        products.put(202L, new Product(202L,"Black Chinos", 499, true, p2url,pants ));
+        products.put(202L, new Product(202L,"Gray Chinos", 499, true, p2url,pants ));
         products.put(203L, new Product(203L,"Black Slacks", 799, true, p3url, pants));
-        products.put(204L, new Product(204L,"Black Jeans", 699, false, p4url,pants ));
-        products.put(205L, new Product(205L,"Training shorts", 249,  true, p5url, pants));
-        products.put(206L,new Product(206L, "White Linen Pants", 599, false, p6url, pants));
-        products.put(207L, new Product(207L, "Gray Slacks",699, false, p7url, pants));
-        products.put(208L, new Product(208L, "Washed Jeans", 499, false, p8url, pants));
+        products.put(204L, new Product(204L,"Gray Jeans", 699, false, p4url,pants ));
+        products.put(205L, new Product(205L,"Linen Pants", 249,  true, p5url, pants));
+        products.put(206L,new Product(206L, "Black Jeans", 599, false, p6url, pants));
+        products.put(207L, new Product(207L, "Gray Sweatpants",699, false, p7url, pants));
+        products.put(208L, new Product(208L, "Black Sweatpants", 499, false, p8url, pants));
 
         products.put(301L, new Product(301L,"White Sneakers", 399, false, s1url,shoes));
         products.put(302L, new Product(302L,"Green Sneakers", 599, true, s2url,shoes));
-        products.put(303L, new Product(303L,"Black Dress Shoe", 999, false, s3url,shoes));
+        products.put(303L, new Product(303L,"Black Sneakers", 999, false, s3url,shoes));
         products.put(304L, new Product(304L,"Brown Loafers", 299, true, s4url,shoes));
         products.put(305L, new Product(305L,"Blue Loafers", 499, true, s5url,shoes));
         products.put(306L, new Product(306L, "Leopard Sneakers",399, false, s6url,shoes));
         products.put(307L, new Product(307L,"Red Sneakers", 399, false, s7url,shoes));
-        products.put(308L, new Product(308L,"Leather Sneaker",499, false, s8url,shoes));
+        products.put(308L, new Product(308L,"Black Heels",499, false, s8url,shoes));
     }
     
     public List<Product> getAllProducts() {
