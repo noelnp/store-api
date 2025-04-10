@@ -53,10 +53,10 @@ public class ProductService {
         String s2url = "https://i.postimg.cc/Fz97hrWm/green-streat.png";
         String s3url = "https://i.postimg.cc/k4vq7Lpd/mocka-sko-svart.png";
         String s4url = "https://i.postimg.cc/66VVrTCW/brows-loafs.png";
-        String s5url = "https://i.postimg.cc/PJYnF18C/blackloaferse.png";
-        String s6url = "https://i.postimg.cc/T1NLPMP8/9392c88d-076e-46b1-a2d2-d1dee31284d3.png";
-        String s7url = "https://i.postimg.cc/kgqPfjF8/blackleathershoe.png";
-        String s8url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359465025755943093/raw.png?ex=67f793f7&is=67f64277&hm=6a25bfd0cbb4fe73116343a3c6b257b5c8486c2f93a599d78659875ab9d2fe09&";
+        String s5url = "https://i.postimg.cc/0yqjD668/blue-loafers.png";
+        String s6url = "https://i.postimg.cc/jdVRV9Y8/leopard-sneakers.png";
+        String s7url = "https://i.postimg.cc/yYMxPPPR/AKLN-red.png";
+        String s8url = "https://i.postimg.cc/Bnvdy9nP/black-heels.png";
 
 
         
@@ -84,11 +84,11 @@ public class ProductService {
         products.put(301L, new Product(301L,"White Sneakers", 399, false, s1url,shoes));
         products.put(302L, new Product(302L,"Green Sneakers", 599, true, s2url,shoes));
         products.put(303L, new Product(303L,"Black Dress Shoe", 999, false, s3url,shoes));
-        products.put(304L, new Product(304L,"Brown Sandals", 299, true, s4url,shoes));
+        products.put(304L, new Product(304L,"Brown Loafers", 299, true, s4url,shoes));
         products.put(305L, new Product(305L,"Blue Loafers", 499, true, s5url,shoes));
         products.put(306L, new Product(306L, "Leopard Sneakers",399, false, s6url,shoes));
         products.put(307L, new Product(307L,"Red Sneakers", 399, false, s7url,shoes));
-        products.put(308L, new Product(308L,"Black Heels",499, false, s8url,shoes));
+        products.put(308L, new Product(308L,"Leather Sneaker",499, false, s8url,shoes));
     }
     
     public List<Product> getAllProducts() {
