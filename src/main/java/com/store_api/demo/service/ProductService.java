@@ -49,10 +49,10 @@ public class ProductService {
         String p8url = "https://i.postimg.cc/j5dSngmR/track-pants.png";
 
         // Images url for shoes:
-        String s1url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359461858074955807/white-sneakers.png?ex=67f79104&is=67f63f84&hm=bb3d1e220970b6ad5433a3bdc7ee32fa967a35b2d30ec358933f25c23fdceda7&";
-        String s2url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359461978858459206/raw.png?ex=67f79121&is=67f63fa1&hm=cc572cec526445ac8a6f021d877199555e875ab724bb6e6b07e3c5dd3f9a1592&";
-        String s3url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359462635032023121/ChatGPT_Image_9_apr._2025_11_38_56.png?ex=67f791bd&is=67f6403d&hm=c495b2c9aadd95aeef82bfd9e0ebb29f44a94e4895f1406dabe6b153ee4b0699&";
-        String s4url = "https://cdn.discordapp.com/attachments/1351500772130553876/1359463333773967531/52371897-d3e7-4530-a693-3a6d90d74ffc.png?ex=67f79264&is=67f640e4&hm=9da1409bf65cb69110a0982c1ba22b859aaa5647a0537d2150c6a7779e707752&¢";
+        String s1url = "https://i.postimg.cc/X710vjHL/white-sneaks.png";
+        String s2url = "https://i.postimg.cc/Fz97hrWm/green-streat.png";
+        String s3url = "https://i.postimg.cc/k4vq7Lpd/mocka-sko-svart.png";
+        String s4url = "https://i.postimg.cc/66VVrTCW/brows-loafs.png";
         String s5url = "https://i.postimg.cc/PJYnF18C/blackloaferse.png";
         String s6url = "https://i.postimg.cc/T1NLPMP8/9392c88d-076e-46b1-a2d2-d1dee31284d3.png";
         String s7url = "https://i.postimg.cc/kgqPfjF8/blackleathershoe.png";
